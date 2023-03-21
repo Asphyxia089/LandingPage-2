@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldy Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
+<link rel="icon" href="favicon.svg"><script defer src="index.11e9bd9e46de7150a315.js"></script><link href="main.09f70294632688290653.css" rel="stylesheet"></head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__menu _container">
+                <nav class="header-menu__body">
+                    <div id="new-title"></div>
+                    <div class="dropdown-container" id="dropdown-container">
+                        <div id="dropdown" class="dropdown">
+                            <div class="dropdown__select">
+                                <img src="img/2ca42b3fd0eef293735a.svg" class="dropdown__img" alt="vector">
+                                <span class="dropdown__selected dropdown__caret">Санкт-Петербург</span>
+                            </div>
+                            <ul class="menu">
+                                <li class="menu__active"><a href="#" class="menu__text">Санкт-Петербург</a></li>
+                                <li><a href="#" class="menu__text">Москва</a></li>
+                                <li><a href="#" class="menu__text">Нижний Новгород</a></li>
+                                <li><a href="#" class="menu__text">Ростов-на-Дону</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="phone-container" class="phone-wrapper">
+                        <div id="phone" class="header-menu__phone-number phone-number">
+                            <button type="button" class="phone-number__button">
+                                <img src="img/bd403dfb47af5516619c.svg" class="phone-number__img" alt="phone">
+                                <p class="phone-number__text">8 800 785-25-35</p>
+                            </button>
+                            <p class="phone-number__content">8 800 785-25-35</p>
+                        </div>
+                    </div>
+                    <div id="title-container">
+                        <div id="title" class="header-menu__title title">
+                            <p class="title__text-header"><a href="#"><span
+                                        class="title__text-header title__text-header_gold">Goldy
+                                    </span>Store</a></p>
+                            <p class="title__text-footer">ювелирный магазин</p>
+                        </div>
+                    </div>
+                    <div id="auth-container">
+                        <div id="auth" class="header-menu__auth auth">
+                            <a href="#" class="auth__log">Вход</a>
+                            <a href="#">Регистрация</a>
+                        </div>
+                    </div>
+                    <div class="icons-container">
+                        <div class="header-menu__header-icons header-icons">
+                            <a href="#"><img src="img/a179664699ea62ed7ea7.svg" alt="favorite"></a>
+                            <div id="counter" class="header-icons__circle">
+                                <span class="header-icons__count">0</span>
+                            </div>
+                            <a href="#"><img src="img/26ca8a18192aab7d7a2a.svg" alt="chart"></a>
+                            <a href="#"><img src="img/94fda6aa8657d16c101f.svg" alt="bag"></a>
+                            <div id="phone-location"></div>
+                        </div>
+                    </div>
+                    <button type="button" class="icon-menu"><span></span></button>
+
+                </nav>
+                <nav class="footer-menu__body">
+                    <div class="footer-menu__list-wrapper">
+                        <ul class="footer-menu__list">
+                            <li class="footer-menu__link"><a href="#">Каталог</a></li>
+                            <li class="footer-menu__link"><a href="#">Акции</a></li>
+                            <li class="footer-menu__link"><a href="#">Бренды</a></li>
+                            <li class="footer-menu__link"><a href="#">Магазины</a></li>
+                            <li class="footer-menu__link"><a href="#">О нас</a></li>
+                            <li class="footer-menu__link"><a href="#">Доставка и оплата</a></li>
+                            <li class="footer-menu__link"><a href="#">Статьи</a></li>
+                            <li id="new-auth"></li>
+                            <li id="new-dropdown"></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-menu__search">
+                        <div class="search-form">
+                            <form action="#" class="search-form__item">
+                                <button class="search-form__btn" href="#"><img src="img/00f58f9efd3cc959a08c.svg"
+                                        class="search-form__icon" alt="search"></button>
+                                <input class="search-form__input" autocomplete="off" name="form[]"
+                                    placeholder="Поиск по сайту" type="text">
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__main-slider main-slider">
+                <div class="main-slider__container _container">
+                    <div class="main-slider__body">
+                        <div class="main-slider__content content-main">
+                            <h1 class="content-main__title_header">Суперскидка до 60%</h1>
+                            <h1 class="content-main__title_footer">На бриллианты</h1>
+                            <a href="" class="content-main__button">Подробнее</a>
+                        </div>
+                        <div class="image-slider swiper">
+                            <div class="image-slider__wrapper swiper-wrapper">
+                                <div class="image-slider_slide swiper-slide">
+                                    <img src="img/342e631146a33b387175.png" alt="Image">
+                                </div>
+                                <div class="image-slider_slide swiper-slide">
+                                    <img src="img/342e631146a33b387175.png" alt="Image">
+                                </div>
+                                <div class="image-slider_slide swiper-slide">
+                                    <img src="img/342e631146a33b387175.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-pagination swiper-pagination"></div>
+                        <button type="button" class="slider-arrow slider-arrow_prev"><img src="img/64c32b2f33c8d8d23386.svg"
+                                alt="arrow"></button>
+                        <button type="button" class="slider-arrow slider-arrow_next"><img src="img/2fb50449126adf6cfc66.svg"
+                                alt="arrow"></button>
+                        <div class="bg_union"><img src="img/afa82a471452fdaa9394.svg" alt="background"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__categories categories">
+                <div class="categories__container _container">
+                    <h1 class="categories__title _title">Популярные категории</h1>
+                    <div class="categories__content">
+                        <article class="categories__item">
+                            <a class="categories__wrapper" href="#">
+                                <div class="categories__img">
+                                    <img src="img/4bde87fe478c0688bec8.png" alt="Rings">
+                                </div>
+                                <div class="categories__text">Кольца</div>
+                            </a>
+                        </article>
+                        <article class="categories__item">
+                            <a class="categories__wrapper" href="#">
+                                <div class="categories__img">
+                                    <img src="img/6967f64e3dedfc68983c.png" alt="Earrings">
+                                </div>
+                                <div class="categories__text">Серьги</div>
+                            </a>
+                        </article>
+                        <article class="categories__item">
+                            <a class="categories__wrapper" href="#">
+                                <div class="categories__img">
+                                    <img src="img/b03e93e6b760eadd8d04.png" alt="Engagement Rings">
+                                </div>
+                                <div class="categories__text text_header">Помолвочные </div>
+                                <div class="categories__text text_footer">кольца</div>
+                            </a>
+                        </article>
+                        <article class="categories__item">
+                            <a class="categories__wrapper" href="#">
+                                <div class="categories__img">
+                                    <img src="img/2c32fb763b5fb6671bb7.png" alt="Bracelets">
+                                </div>
+                                <div class="categories__text">Браслеты</div>
+                            </a>
+                        </article>
+                        <article class="categories__item">
+                            <a class="categories__wrapper" href="#">
+                                <div class="categories__img">
+                                    <img src="img/3dff959f402caa30b498.png" alt="Necklaces and pendants">
+                                </div>
+                                <div class="categories__text">Колье и подвески</div>
+                            </a>
+                        </article>
+                        <article class="categories__item">
+                            <a class="categories__wrapper" href="#">
+                                <div class="categories__img">
+                                    <img src="img/a14f1806ab1abdfb27a0.png" alt="Watch">
+                                </div>
+                                <div class="categories__text">Часы</div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="page__product sale">
+                <div class="sale__container _container">
+                    <h1 class="sale__title _title">Распродажа</h1>
+                    <div class="sale__controls controls">
+                        <div class="controls__content">
+                            <div class="controls__buttons">
+                                <button type="button" class="controls__button">Кольца</button>
+                                <button type="button" class="controls__button">Серьги</button>
+                                <button type="button" class="controls__button">Браслеты</button>
+                                <button type="button" class="controls__button">Часы</button>
+                            </div>
+                            <div class="controls__sliders">
+                                <button type="button" class="slider-arrow slider-arrow_prev2"><img
+                                        src="img/64c32b2f33c8d8d23386.svg" alt="arrow"></button>
+                                <button type="button" class="slider-arrow slider-arrow_next2"><img
+                                        src="img/2fb50449126adf6cfc66.svg" alt="arrow"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sale__product-block">
+                        <div class="product-slider-main swiper">
+                            <div class="product-slider-main__wrapper swiper-wrapper">
+                                <div class="product-slider-main__slide swiper-slide">
+                                    <article class="product product-hit">
+                                        <span class="product__status icon icon-sale">Sale</span>
+                                        <span class="product__status product__status_hit icon icon-hit">Хит</span>
+                                        <div class="product__icons">
+                                            <button class="icons__button icons__button-heart" type="button"><img
+                                                    class="icons__icon icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="Icon 1"></button>
+                                            <button class="icons__button icons__button-eye" type="button"><img
+                                                    class="icons__icon icons__icon-eye" src="img/97b086c94fdd692c497c.svg"
+                                                    alt="Icon 2"></button>
+                                        </div>
+                                        <img class="product__image" src="img/9e54406aa9aae4429307.png" alt="Product Image">
+                                        <div class="product-pagination-style product-pagination swiper-pagination">
+                                        </div>
+                                        <div class="product__price">
+                                            <div class="product__price-block">
+                                                <span class="product__price-new">41 000 ₽</span>
+                                                <span class="product__price-old">65 000 ₽</span>
+                                            </div>
+                                            <span class="product__price-discount discount">-45%</span>
+                                        </div>
+
+                                        <p class="product__description">Стильное кольцо из белого золота с бриллиантом
+                                        </p>
+                                        <div class="product-dropdown product-dropdown-style">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Белое
+                                                    золото</span>
+                                            </div>
+                                            <ul class="product-menu">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Белое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Желтое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Серебро</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-dropdown">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Размер:
+                                                    16</span>
+                                            </div>
+                                            <ul class="product-menu product-menu-pos">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Размер:
+                                                        16</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 14</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 12</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="product-slider-main__slide swiper-slide">
+                                    <article class="product">
+                                        <div class="product__icons">
+                                            <button class="icons__button icons__button-heart" type="button"><img
+                                                    class="icons__icon icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="Icon 1"></button>
+                                            <button class="icons__button icons__button-eye" type="button"><img
+                                                    class="icons__icon icons__icon-eye" src="img/97b086c94fdd692c497c.svg"
+                                                    alt="Icon 2"></button>
+                                        </div>
+                                        <img class="product__image" src="img/a0892a005a8893ef3f34.png" alt="Product Image">
+                                        <div class="product-pagination-style product-pagination2 swiper-pagination">
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="product__price-new">56 000 ₽</span>
+                                        </div>
+                                        <p class="product__description">Стильное кольцо из белого золота с бриллиантом
+                                        </p>
+                                        <div class="product-dropdown product-dropdown-style">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Белое
+                                                    золото</span>
+                                            </div>
+                                            <ul class="product-menu">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Белое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Желтое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Серебро</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-dropdown">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Размер:
+                                                    16</span>
+                                            </div>
+                                            <ul class="product-menu product-menu-pos">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Размер:
+                                                        16</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 14</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 12</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="product-slider-main__slide swiper-slide">
+                                    <article class="product">
+                                        <div class="product__icons icons">
+                                            <button class="icons__button icons__button-heart" type="button"><img
+                                                    class="icons__icon icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="Icon 1"></button>
+                                            <button class="icons__button icons__button-eye" type="button"><img
+                                                    class="icons__icon icons__icon-eye" src="img/97b086c94fdd692c497c.svg"
+                                                    alt="Icon 2"></button>
+                                        </div>
+                                        <img class="product__image" src="img/71afcbb1f84d13f222ac.png" alt="Product Image">
+                                        <div class="product__price">
+                                            <span class="product__price-new">41 000 ₽</span>
+                                        </div>
+                                        <p class="product__description">Стильное кольцо из белого золота с бриллиантом
+                                        </p>
+                                        <div class="product-dropdown product-dropdown-style">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Белое
+                                                    золото</span>
+                                            </div>
+                                            <ul class="product-menu">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Белое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Желтое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Серебро</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-dropdown">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Размер:
+                                                    16</span>
+                                            </div>
+                                            <ul class="product-menu product-menu-pos">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Размер:
+                                                        16</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 14</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 12</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="product-slider-main__slide swiper-slide">
+                                    <article class="product">
+                                        <div class="product__icons">
+                                            <button class="icons__button icons__button-heart" type="button"><img
+                                                    class="icons__icon icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="Icon 1"></button>
+                                            <button class="icons__button icons__button-eye" type="button"><img
+                                                    class="icons__icon icons__icon-eye" src="img/97b086c94fdd692c497c.svg"
+                                                    alt="Icon 2"></button>
+                                        </div>
+                                        <img class="product__image" src="img/f7af637efa552232af83.png" alt="Product Image">
+                                        <div class="product-pagination-style product-pagination4 swiper-pagination">
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="product__price-new">41 000 ₽</span>
+                                        </div>
+                                        <p class="product__description">Стильное кольцо из белого золота с бриллиантом
+                                        </p>
+                                        <div class="product-dropdown product-dropdown-style">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Белое
+                                                    золото</span>
+                                            </div>
+                                            <ul class="product-menu">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Белое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Желтое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Серебро</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-dropdown">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Размер:
+                                                    16</span>
+                                            </div>
+                                            <ul class="product-menu product-menu-pos">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Размер:
+                                                        16</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 14</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 12</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="product-slider-main__slide swiper-slide">
+                                    <article class="product product-hit">
+                                        <span class="product__status icon icon-sale">Sale</span>
+                                        <span class="product__status product__status_hit icon icon-hit">Хит</span>
+                                        <div class="product__icons">
+                                            <button class="icons__button icons__button-heart" type="button"><img
+                                                    class="icons__icon icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="Icon 1"></button>
+                                            <button class="icons__button icons__button-eye" type="button"><img
+                                                    class="icons__icon icons__icon-eye" src="img/97b086c94fdd692c497c.svg"
+                                                    alt="Icon 2"></button>
+                                        </div>
+                                        <img class="product__image" src="img/9e54406aa9aae4429307.png" alt="Product Image">
+                                        <div class="product-pagination-style product-pagination swiper-pagination">
+                                        </div>
+                                        <div class="product__price">
+                                            <div class="product__price-block">
+                                                <span class="product__price-new">41 000 ₽</span>
+                                                <span class="product__price-old">65 000 ₽</span>
+                                            </div>
+                                            <span class="product__price-discount discount">-45%</span>
+                                        </div>
+
+                                        <p class="product__description">Стильное кольцо из белого золота с бриллиантом
+                                        </p>
+                                        <div class="product-dropdown product-dropdown-style">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Белое
+                                                    золото</span>
+                                            </div>
+                                            <ul class="product-menu">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Белое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Желтое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Серебро</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-dropdown">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Размер:
+                                                    16</span>
+                                            </div>
+                                            <ul class="product-menu product-menu-pos">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Размер:
+                                                        16</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 14</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер: 12</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="product-slider-main__slide swiper-slide">
+
+                                    <article class="product">
+                                        <div class="product__icons">
+                                            <button class="icons__button icons__button-heart" type="button"><img
+                                                    class="icons__icon icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="Icon 1"></button>
+                                            <button class="icons__button icons__button-eye" type="button"><img
+                                                    class="icons__icon icons__icon-eye" src="img/97b086c94fdd692c497c.svg"
+                                                    alt="Icon 2"></button>
+                                        </div>
+                                        <img class="product__image" src="img/a0892a005a8893ef3f34.png" alt="Product Image">
+                                        <div class="product-pagination-style product-pagination2 swiper-pagination">
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="product__price-new">56 000 ₽</span>
+                                        </div>
+                                        <p class="product__description">Стильное кольцо из белого золота с
+                                            бриллиантом</p>
+                                        <div class="product-dropdown product-dropdown-style">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Белое
+                                                    золото</span>
+                                            </div>
+                                            <ul class="product-menu">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Белое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Желтое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Серебро</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-dropdown">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Размер:
+                                                    16</span>
+                                            </div>
+                                            <ul class="product-menu product-menu-pos">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Размер:
+                                                        16</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер:
+                                                        14</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер:
+                                                        12</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="product-slider-main__slide swiper-slide">
+                                    <article class="product">
+                                        <div class="product__icons">
+                                            <button class="icons__button icons__button-heart" type="button"><img
+                                                    class="icons__icon icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="Icon 1"></button>
+                                            <button class="icons__button icons__button-eye" type="button"><img
+                                                    class="icons__icon icons__icon-eye" src="img/97b086c94fdd692c497c.svg"
+                                                    alt="Icon 2"></button>
+                                        </div>
+
+                                        <img class="product__image" src="img/71afcbb1f84d13f222ac.png" alt="Product Image">
+
+                                        <div class="product-pagination-style product-pagination3 swiper-pagination">
+                                        </div>
+                                        <div class="product__price">
+                                            <span class="product__price-new">41 000 ₽</span>
+                                        </div>
+                                        <p class="product__description">Стильное кольцо из белого золота с
+                                            бриллиантом</p>
+                                        <div class="product-dropdown product-dropdown-style">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Белое
+                                                    золото</span>
+                                            </div>
+                                            <ul class="product-menu">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Белое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Желтое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Серебро</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-dropdown">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Размер:
+                                                    16</span>
+                                            </div>
+                                            <ul class="product-menu product-menu-pos">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Размер:
+                                                        16</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер:
+                                                        14</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер:
+                                                        12</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="product-slider-main__slide swiper-slide">
+                                    <article class="product">
+                                        <div class="product__icons">
+                                            <button class="icons__button icons__button-heart" type="button"><img
+                                                    class="icons__icon icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="Icon 1"></button>
+                                            <button class="icons__button icons__button-eye" type="button"><img
+                                                    class="icons__icon icons__icon-eye" src="img/97b086c94fdd692c497c.svg"
+                                                    alt="Icon 2"></button>
+                                        </div>
+                                        <img class="product__image" src="img/f7af637efa552232af83.png" alt="Product Image">
+                                        <div class="product__price">
+                                            <span class="product__price-new">41 000 ₽</span>
+                                        </div>
+                                        <p class="product__description">Стильное кольцо из белого золота с
+                                            бриллиантом</p>
+                                        <div class="product-dropdown product-dropdown-style">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Белое
+                                                    золото</span>
+                                            </div>
+                                            <ul class="product-menu">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Белое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Желтое
+                                                        золото</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Серебро</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-dropdown">
+                                            <div class="product-dropdown__select">
+                                                <span class="product-dropdown__selected product-dropdown__caret">Размер:
+                                                    16</span>
+                                            </div>
+                                            <ul class="product-menu product-menu-pos">
+                                                <li class="product-menu__active"><button type="button"
+                                                        class="product-menu__text">Размер:
+                                                        16</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер:
+                                                        14</button>
+                                                </li>
+                                                <li><button type="button" class="product-menu__text">Размер:
+                                                        12</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__discounts discounts">
+                <div class="discounts__container _container">
+                    <div class="discounts__content">
+                        <article class="discounts__item">
+                            <div class="discounts__text">
+                                <p>Скидки на все украшения с бриллиантами</p>
+                            </div>
+                            <div class="discounts__footer-container">
+                                <div class="discounts__footer-container-text">До</div>
+                                <div class="discounts__footer-container-precent">-50%</div>
+                            </div>
+                            <img class="discounts__bg-union" src="img/afa82a471452fdaa9394.svg" alt="background">
+                            <img class="discounts__bg discounts__bg1" src="img/950c48b6d524cc408bb8.png" alt="image">
+                        </article>
+                        <article class="discounts__item">
+                            <div class="discounts__text discounts__text-middle">
+                                <p>Скидки на кольца и браслеты</p>
+                            </div>
+                            <div class="discounts__footer-container discounts__footer-container_orange">
+                                <div class="discounts__footer-container-text">До</div>
+                                <div class="discounts__footer-container-precent">-40%</div>
+                            </div>
+                            <img class="discounts__bg-union" src="img/afa82a471452fdaa9394.svg" alt="background">
+                            <img class="discounts__bg discounts__bg2" src="img/98ae8428e2544163292a.png" alt="image">
+                        </article>
+                        <article class="discounts__item">
+                            <div class="discounts__text">
+                                <p>Снижение цен на обручальные кольца</p>
+                            </div>
+                            <div class="discounts__footer-container discounts__footer-container_yellow">
+                                <div class="discounts__footer-container-text">До</div>
+                                <div class="discounts__footer-container-precent">-60%</div>
+                            </div>
+                            <img class="discounts__bg-union" src="img/afa82a471452fdaa9394.svg" alt="background">
+                            <img class="discounts__bg discounts__bg3" src="img/ef189f3b5e5ced07d0a5.png" alt="image">
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="page__product-day product-day">
+                <div class="product-day__container _container">
+                    <h1 class="product-day__title1 _title">Товар дня</h1>
+                    <div class="product-day__body">
+                        <div class="product-day__left">
+                            <div class="product-day__swiper swiper">
+                                <div class="product-day-swiper__wrapper swiper-wrapper">
+                                    <div class="product-day-swiper__slide swiper-slide">
+                                        <img class="product-day__image" src="img/580b4827b3f0515a8673.png" alt="Product">
+                                    </div>
+                                    <div class="product-day-swiper__slide swiper-slide">
+                                        <img class="product-day__image" src="img/580b4827b3f0515a8673.png" alt="Product">
+                                    </div>
+                                    <div class="product-day-swiper__slide swiper-slide">
+                                        <img class="product-day__image" src="img/580b4827b3f0515a8673.png" alt="Product">
+                                    </div>
+                                </div>
+                                <div class="product-day__prev swiper-button-prev product-day__swiper-btns"></div>
+                                <div class="product-day__next swiper-button-next product-day__swiper-btns"></div>
+                            </div>
+                            <div class="product-day__icons icons-product">
+                                <span class="icons-product__new icon">New</span>
+                                <span class="icons-product__hit icon icon-hit">Хит</span>
+                                <span class="icons-product__sale icon icon-sale">Sale</span>
+                            </div>
+                        </div>
+                        <div class="product-day__right">
+                            <div class="product-day__content">
+                                <div class="product-day__rating rating">
+                                    <img src="img/526e86883385e6f243bb.png" alt="Unselected Star" class="rating__star">
+                                    <img src="img/526e86883385e6f243bb.png" alt="Unselected Star" class="rating__star">
+                                    <img src="img/526e86883385e6f243bb.png" alt="Unselected Star" class="rating__star">
+                                    <img src="img/526e86883385e6f243bb.png" alt="Unselected Star" class="rating__star">
+                                    <img src="img/526e86883385e6f243bb.png" alt="Unselected Star" class="rating__star">
+                                    <p class="rating__score">4,2</p>
+                                </div>
+                                <h2 class="product-day__title2">Кольцо из золота с бриллиантами</h2>
+                                <div class="product-day__article">Артикул: 1012076</div>
+                                <div class="product-day__price-timer price-timer">
+                                    <div class="price-timer__price-block price-block">
+                                        <p class="price-block__price">22 000 ₽</p>
+                                        <p class="price-block__price_old">22 000 ₽</p>
+                                        <span class="price-block__discount discount">-45%</span>
+                                    </div>
+                                    <div class="price-timer__timer-block timer-block" id="timer">
+                                        <div class="timer-block__item">
+                                            <span class="timer-block__time" id="hours">00</span>
+                                            <span class="timer-block__text">часов</span>
+                                        </div>
+                                        <div class="timer-block__item">
+                                            <span class="timer-block__time" id="minutes">00</span>
+                                            <span class="timer-block__text">минут</span>
+                                        </div>
+                                        <div class="timer-block__item">
+                                            <span class="timer-block__time" id="seconds">00</span>
+                                            <span class="timer-block__text">секунд</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-day__color color">
+                                    <p class="color__text">Цвет</p>
+                                    <div class="color__list">
+                                        <button type="button" class="color__button color__button_grey"></button>
+                                        <button type="button" class="color__button color__button_yellow"></button>
+                                        <button type="button" class="color__button color__button_orange"></button>
+                                        <button type="button" class="color__button color__button_green"></button>
+                                    </div>
+                                </div>
+                                <div class="product-day__size size">
+                                    <p class="size__text">Размер</p>
+                                    <button class="size__popup" type="button">?</button>
+                                    <div class="size__content">Также как существующая теория напрямую зависит от
+                                        экономической целесообразности принимаемых решений</div>
+                                </div>
+                                <div class="product-day__size-list size-list">
+                                    <div class="size-list__container">
+                                        <button type="button" class="size-list__button">16,5</button>
+                                        <button type="button" class="size-list__button">17</button>
+                                        <button type="button" class="size-list__button">17,5</button>
+                                        <button type="button" class="size-list__button">18</button>
+                                        <button type="button" class="size-list__button">18,5</button>
+                                        <button type="button" class="size-list__button">19</button>
+                                        <button type="button" class="size-list__button">19,5</button>
+                                        <button type="button" class="size-list__button">20</button>
+                                        <button type="button" class="size-list__button">20,5</button>
+                                        <button type="button" class="size-list__button">21</button>
+                                    </div>
+                                </div>
+
+                                <div class="product-day__buy-links buy-links">
+                                    <div class="buy-links__buy">
+                                        <button type="button" class="buy-links__button buy-links__button_chart">В
+                                            корзину</button>
+                                        <button type="button" class="buy-links__button buy-links__button_buy">Купить в 1
+                                            клик</button>
+                                    </div>
+                                    <div class="buy-links__links">
+                                        <div class="buy-links__item">
+                                            <button class="buy-links__btn icons__button-heart" type="button"><img
+                                                    class="buy-links__img icons__icon-heart" src="img/7fd8555222473f620c3f.svg"
+                                                    alt="IconHeart">
+                                                <p class="buy-links__text">Сохранить</p>
+                                            </button>
+                                        </div>
+                                        <div class="buy-links__item">
+                                            <button class="buy-links__btn" type="button"><img
+                                                    class="buy-links__img buy-links__img_dark"
+                                                    src="img/b5d811d8f1f50d349dd9.svg" alt="IconChart">
+                                                <p class="buy-links__text">Сравнить</p>
+                                            </button>
+                                        </div>
+                                        <div class="buy-links__item">
+                                            <button class="buy-links__btn" type="button"><img
+                                                    class="buy-links__img buy-links__img_dark" src="img/0f89df1c77221fe22a74.svg"
+                                                    alt="IconShare">
+                                                <p class="buy-links__text">Поделиться</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="page__articles articles">
+                <div class="articles__container _container">
+                    <div class="articles__header">
+                        <div class="articles__title _title">Статьи</div>
+                        <button class="articles__read readBtn">
+                            <p class="readBtn__text">Читать все</p>
+                            <img class="readBtn__img" src="img/172dc5fa6c35b7a1fa83.svg" alt="Arrow">
+                        </button>
+                    </div>
+                    <div class="articles__content">
+                        <article class="articles__item">
+                            <a href="#"><img class="articles__img" src="img/440af257f443791c9e87.jpg" alt="Image"></a>
+                            <p class="articles__date">21 сентября 2021</p>
+                            <p class="articles__text">Обручальные кольца: тренды 2021</p>
+                        </article>
+                        <article class="articles__item">
+                            <a href="#"><img class="articles__img" src="img/cf452ec4aa065fb3654c.jpg" alt="Image"></a>
+                            <p class="articles__date">25 сентября 2021</p>
+                            <p class="articles__text">Главные ювелирные тренды года</p>
+                        </article>
+                        <article class="articles__item">
+                            <a href="#"><img class="articles__img" src="img/a778249fe00f5deba244.jpg" alt="Image"></a>
+                            <p class="articles__date">21 сентября 2021</p>
+                            <p class="articles__text">Жемчуг: 7 малоизвестных фактов о культовом украшении</p>
+                        </article>
+                        <article class="articles__item">
+                            <a href="#"><img class="articles__img" src="img/887c1e123c2c7b6d0eaf.jpg" alt="Image"></a>
+                            <p class="articles__date">21 сентября 2021</p>
+                            <p class="articles__text">Как отличить золото от подделки: 10 практических советов</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+</body>
+
+</html>
