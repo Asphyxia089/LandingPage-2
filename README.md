@@ -1,8 +1,8 @@
 # Goldy-store
 
-Ссылка: <a href='https://goldystore.netlify.app/'>Goldy-store</a>
+Live demo: <a href='https://goldystore.netlify.app/'>Goldy-store</a>
 
-<h3>Использованные технологии:</h3>
+<h3>Technologies used:</h3>
 
 » JS <br>
 » Sass / Scss
